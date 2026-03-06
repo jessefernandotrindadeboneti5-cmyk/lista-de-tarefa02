@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Exercio03 {
+    public static void main(String[] args) {
+        //declaração
+        Scanner sc = new Scanner(System.in);
+        double nota1 , desconto ;
+
+        double resutado;
+
+
+        //emtrada
+        System.out.print("Digite a primeira nota: ");
+        nota1 = sc.nextDouble();
+        System.out.print("Digite a segunda nota: ");
+        desconto = sc.nextDouble();
+
+
+
+        //processamento
+        resutado = nota1 / desconto ;
+
+
+        //saida
+        System.out.printf("o vaolr a pagar é: %.2f",resutado);
+        sc.close();
+    }
+        }
+
+
+
+
+
