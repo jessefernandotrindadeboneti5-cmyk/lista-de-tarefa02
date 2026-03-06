@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Exercio06 {
+
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            //declaração
+
+            double  conta ;
+            double taxa = 0.10;
+            double soma;
+            double valortaxa ;
+
+            //emtrada
+            System.out.print("Digite a primeira nota: ");
+            conta = sc.nextDouble();
+
+
+
+            //processamento
+            valortaxa = conta * taxa ;
+            soma = valortaxa + conta;
+
+            //saida
+            System.out.printf("Valor da conta: %.2f\n", conta);
+            System.out.printf("Taxa de serviço (10%%): %.2f\n",valortaxa);
+            System.out.printf("Total a pagar: %.2f\n", soma);
+
+            sc.close();
+        }
+    }
+
