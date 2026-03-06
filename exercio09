@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Exercio09 {
+
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            //declaração
+
+            double km;
+
+            double ms;
+
+
+            //emtrada
+            System.out.print("Digite a primeira nota: ");
+            km  = sc.nextDouble();
+
+
+            //processamento
+
+            ms =km * 5 /18 ;
+
+            //saida
+            System.out.printf("o valor em m/s: %.2f",ms);
+            sc.close();
+        }
+    }
+
