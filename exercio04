@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercio04 {
+
+        public static void main(String[] args) {
+            //declaração
+            Scanner sc = new Scanner(System.in);
+            double nota1 ;
+            double valor = 5;
+            double resutado;
+
+
+            //emtrada
+            System.out.print("Digite a primeira nota: ");
+            nota1 = sc.nextDouble();
+
+
+
+            //processamento
+            resutado = nota1 / valor ;
+
+            //saida
+            System.out.printf("media: %.2f",resutado);
+            sc.close();
+        }
+    }
+
