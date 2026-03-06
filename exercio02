@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Exercio02 {
+    public static void main(String[] args) {
+        //declaração
+        Scanner sc = new Scanner(System.in);
+        double nota1 , nota2 ,nota3;
+
+        double soma,media;
+
+
+        //emtrada
+        System.out.print("Digite a primeira nota: ");
+        nota1 = sc.nextDouble();
+        System.out.print("Digite a segunda nota: ");
+        nota2 = sc.nextDouble();
+        System.out.print("Digite a terceira nota: ");
+        nota3 = sc.nextDouble();
+
+
+        //processamento
+        soma = nota1 + nota2 + nota3;
+        media = soma/3;
+
+        //saida
+        System.out.printf("media: %.2f",media);
+        sc.close();
+    }
+}
+
