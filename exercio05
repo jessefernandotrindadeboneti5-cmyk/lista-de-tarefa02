@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercio05 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        double parcela;
+        double divisao = 3;
+        double resultado;
+
+        // entrada
+        System.out.print("Digite o valor total: ");
+        parcela = sc.nextDouble();
+
+        // processamento
+        resultado = parcela / divisao;
+
+        // saída
+        System.out.printf("Parcela 1: %.2f\n", resultado);
+        System.out.printf("Parcela 2: %.2f\n", resultado);
+        System.out.printf("Parcela 3: %.2f\n", resultado);
+
+        sc.close();
+    }
+}
