@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Exercio08 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        //declaração
+
+        double  largura, aultura ,profunudidade;
+
+        double vulume;
+
+
+        //emtrada
+        System.out.print("Digite a largura: ");
+        largura= sc.nextDouble();
+        System.out.print("Digite a aultura: ");
+        aultura = sc.nextDouble();
+        System.out.print("Digite a profunudidade: ");
+        profunudidade = sc.nextDouble();
+
+
+        //processamento
+     vulume= largura * aultura * profunudidade ;
+
+        //saida
+        System.out.printf("o vulome vai dar : %.2f",vulume);
+        sc.close();
+    }
+}
