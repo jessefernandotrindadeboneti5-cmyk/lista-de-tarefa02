@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Exercios01 {
+
+
+           public static void main(String[] args) {
+               //declaração
+               Scanner sc = new Scanner(System.in);
+               String nota1 , nota2  ;
+
+
+
+
+               //emtrada
+               System.out.print("Digite a primeira nota: ");
+               nota1 = sc.nextLine();
+               System.out.print("Digite a segunda nota: ");
+               nota2 = sc.nextLine();
+
+
+
+               //processamento
+
+
+               //saida
+               System.out.printf("o valor sera: %s%s" ,nota1,nota2);
+               sc.close();
+           }
+       }
