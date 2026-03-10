@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Exercio10 {
+        public static void main(String[] args) {
+            //declaração
+            Scanner sc = new Scanner(System.in);
+            double massa;
+            double altura;
+
+            double energia;
+
+
+            //emtrada
+            System.out.print("Digite a massa do objeto (kg): ");
+            massa = sc.nextDouble();
+            System.out.print("Digite a altura do objeto (m): ");
+            altura = sc.nextDouble();
+
+
+
+            //processamento
+             energia = massa * 9.8 * altura ;
+
+            //saida
+            System.out.printf("A energia potencial do objeto é: %.2f Joules ",energia);
+            sc.close();
+        }
+    }
